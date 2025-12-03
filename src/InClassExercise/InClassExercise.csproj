@@ -18,9 +18,5 @@
     <AdditionalFiles Include="stylecop.json" />
   </ItemGroup>
 
-  <ItemGroup>
-    <Compile Remove="Solution.cs" />
-  </ItemGroup>
-
 </Project>
 
