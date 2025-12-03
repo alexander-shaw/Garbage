@@ -5,6 +5,7 @@
     <ProjectReference Include="..\AlexDemo\AlexDemo.csproj" />
     <ProjectReference Include="..\IshaanDemo\IshaanDemo.csproj" />
     <ProjectReference Include="..\NickDemo\NickDemo.csproj" />
+    <ProjectReference Include="..\InClassExercise\InClassExercise.csproj" />
   </ItemGroup>
 
   <ItemGroup>

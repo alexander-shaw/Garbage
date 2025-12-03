@@ -1,7 +1,11 @@
+// <copyright file="Exercise.cs" company="Garbagemen">
+// Copyright (c) Garbagemen. All rights reserved.
+// </copyright>
+
 using System;
 using System.Collections.Generic;
 
-namespace InClassMemoryLeakExercise;
+namespace InClassExercise;
 
 /// <summary>
 /// This exercise demonstrates a subtle memory leak pattern.
@@ -45,11 +49,14 @@ public class EventSubscriber
 }
 
 /// <summary>
-/// Main program that demonstrates the leak.  Modify this to test your fix.
+/// Demo class for In-Class Exercise - Event Leak Exercise.
 /// </summary>
-public class Program
+public class InClassExercise
 {
-    public static void Main()
+    /// <summary>
+    /// Runs the demo.
+    /// </summary>
+    public static void Run()
     {
         var publisher = new EventPublisher();
         var subscribers = new List<EventSubscriber>();

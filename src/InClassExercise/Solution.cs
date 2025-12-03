@@ -1,7 +1,11 @@
+// <copyright file="Solution.cs" company="Garbagemen">
+// Copyright (c) Garbagemen. All rights reserved.
+// </copyright>
+
 using System;
 using System.Collections.Generic;
 
-namespace InClassMemoryLeakExercise;
+namespace InClassExercise;
 
 /// <summary>
 /// SOLUTION:

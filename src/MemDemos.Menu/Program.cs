@@ -6,6 +6,7 @@ using VijayDemo;
 using AlexDemo;
 using IshaanDemo;
 using NickDemo;
+using InClassExercise;
 
 // Main menu loop.
 while (true)
@@ -16,6 +17,7 @@ while (true)
     Console.WriteLine("2  |  Alex's Demo");
     Console.WriteLine("3  |  Ishaan's Demo");
     Console.WriteLine("4  |  Nick's Demo");
+    Console.WriteLine("5  |  In-Class Exercise");
     Console.WriteLine("0  |  Exit");
     Console.Write("SELECT:  ");
 
@@ -46,6 +48,9 @@ while (true)
             break;
         case "4":
             NickDemo.NickDemo.Run();
+            break;
+        case "5":
+            InClassExercise.InClassExercise.Run();
             break;
         default:
             Console.WriteLine("INVALID: PLEASE TRY AGAIN.");
