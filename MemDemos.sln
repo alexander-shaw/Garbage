@@ -19,6 +19,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NickDemo", "src\NickDemo\Ni
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InClassExercise", "src\InClassExercise\InClassExercise.csproj", "{F1A2B3C4-D5E6-4F7A-8B9C-0D1E2F3A4B5C}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{02EA681E-C7D8-13C7-8484-4AC65E1B71E8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -125,5 +127,8 @@ Global
 		{510DAA84-CBDF-469B-8C3E-0DCB5BDB3383} = {827E0CD3-B72D-47B6-A68D-7590B98EB39B}
 		{39DA12DE-A9A6-48A6-B55D-739C4E01DEAE} = {827E0CD3-B72D-47B6-A68D-7590B98EB39B}
 		{F1A2B3C4-D5E6-4F7A-8B9C-0D1E2F3A4B5C} = {827E0CD3-B72D-47B6-A68D-7590B98EB39B}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A6BBA532-CE26-4896-85AF-A3566FF31E05}
 	EndGlobalSection
 EndGlobal
