@@ -30,7 +30,7 @@ public class AlexDemo
         if (choice == "1")
         {
             RunLeaky();
-        } 
+        }
         else if (choice == "2")
         {
             RunFixed();
@@ -53,7 +53,7 @@ public class AlexDemo
     {
         Console.WriteLine("LEAKY VERSION");
         Console.WriteLine("Memory will grow and crash!");
-        
+
         int count = 0;
         while (true)
         {
